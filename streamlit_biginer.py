@@ -11,4 +11,4 @@ df = pd.DataFrame({
     '2列目': [10, 20, 30, 40]
 })
 
-st.write(df)
+st.DataFrame(df, width=100, height=100)
