@@ -8,7 +8,7 @@ st.write('DataFrame')
 
 df = pd.DataFrame(
     np.random(20, 3)
-    columns=('a', 'b','c')
+    columns=['a', 'b','c']
 )
 
 #st.table(df.style.highlight_max(axis=0))
