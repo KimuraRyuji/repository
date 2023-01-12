@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-st.title('Streamlit TEST')
+st.title('AI開発・運用')
 
 st.write('Display Image')
 
