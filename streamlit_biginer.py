@@ -11,4 +11,4 @@ df = pd.DataFrame({
     '2列目': [10, 20, 30, 40]
 })
 
-st.table(df.style.hightlight_max(df), width=300, height=300)
+st.table(df.style.hightlight_max(axis=0), width=300, height=300)
