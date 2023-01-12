@@ -7,8 +7,8 @@ st.title('Streamlit TEST')
 st.write('DataFrame')
 
 df = pd.DataFrame(
-    np.random.rand(20, 3),
-    columns=['a', 'b','c']
+    np.random.rand(100, 2)/[50, 50] + [35.69, 139.70],
+    columns=['lat', 'lon']
 )
 
 st.bar_chart(df)
