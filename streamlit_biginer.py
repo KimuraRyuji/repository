@@ -7,7 +7,7 @@ st.title('Streamlit 超入門')
 st.write('DataFrame')
 
 df = pd.DataFrame(
-    np.random(20, 3)
+    np.random.rand(20, 3),
     columns=['a', 'b','c']
 )
 
