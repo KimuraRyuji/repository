@@ -11,6 +11,6 @@ df = pd.DataFrame(
     columns=['lat', 'lon']
 )
 
-st.bar_chart(df)
+st.map(df)
 
 #st.table(df.style.highlight_max(axis=0))
