@@ -10,5 +10,5 @@ df = pd.DataFrame(
     np.random.rand(20, 3),
     columns=['a', 'b','c']
 )
-
+df
 #st.table(df.style.highlight_max(axis=0))
