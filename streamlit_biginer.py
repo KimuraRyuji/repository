@@ -11,6 +11,6 @@ df = pd.DataFrame(
     columns=['a', 'b','c']
 )
 
-st.area_chart(df)
+st.bar_chart(df)
 
 #st.table(df.style.highlight_max(axis=0))
