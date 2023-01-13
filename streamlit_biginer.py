@@ -9,10 +9,10 @@ st.write('Display Image')
 
 st.write('Interactive Widgets')
 
-text = st.text_input('あなたの趣味を教えてください')
-'あなたの趣味：', text,'です。'
+text = st.sidebar.text_input('あなたの趣味を教えてください')
+condition = st.sidebar.slider('あなたの今の調子は？', 0, 100, 50)
 
-condition = st.slider('あなたの今の調子は？', 0, 100, 50)
+'あなたの趣味：', text,'です。'
 'コンディション：', condition
 
 option = st.selectbox(
