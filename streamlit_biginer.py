@@ -7,6 +7,11 @@ st.title('AI開発・運用')
 
 st.write('Display Image')
 
+st.write('Interactive Widgets')
+
+text = st.text_input('あなたの趣味を教えてください')
+'あなたの趣味：', text,'です。'
+
 option = st.selectbox(
     'あなたが好きな数字を教えてください',
     list(range(1, 11))
