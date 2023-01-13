@@ -9,8 +9,13 @@ st.write('Display Image')
 
 st.write('Interactive Widgets')
 
-text = st.sidebar.text_input('あなたの趣味を教えてください')
-condition = st.sidebar.slider('あなたの今の調子は？', 0, 100, 50)
+left_column, right_column = st.beta_columns(2)
+button = left_column.button('右カラムに文字を表示')
+if button:
+    right_column.write('ここは右カラム')
+
+text = st.text_input('あなたの趣味を教えてください')
+condition = st.slider('あなたの今の調子は？', 0, 100, 50)
 
 'あなたの趣味：', text,'です。'
 'コンディション：', condition
