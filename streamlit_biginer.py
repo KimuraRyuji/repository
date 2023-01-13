@@ -7,8 +7,9 @@ st.title('AI開発・運用')
 
 st.write('Display Image')
 
-img = Image.open('AISmiley_BDSP_Point1.jpg')
-st.image(img, caption='CRISP-DM', use_column_width=True)
+if st.checkbox('Show Image'):
+    img = Image.open('AISmiley_BDSP_Point1.jpg')
+    st.image(img, caption='CRISP-DM', use_column_width=True)
 
 st.write('DataFrame')
 
