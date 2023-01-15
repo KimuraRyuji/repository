@@ -1,9 +1,9 @@
-import streamlit as st
-import numpy as np
+pip install yfinance
 import pandas as pd
+import matplotlib.pyplot as plt
 import yfinance as yf
 
 aapl = yf.Ticker('AAPL')
 
 aapl.history()
-yfinance.Ticker object<AAPL>
+yf.Ticker object<AAPL>
