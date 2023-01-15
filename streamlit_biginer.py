@@ -3,8 +3,6 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 
-%matplotlib inline
-
 aapl = yf.Ticker('AAPL')
 
 aapl.history()
