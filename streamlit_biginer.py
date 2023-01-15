@@ -5,4 +5,3 @@ import yfinance as yf
 aapl = yf.Ticker('AAPL')
 
 aapl.history()
-yf.Ticker object<AAPL>
