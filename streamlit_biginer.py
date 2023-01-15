@@ -1,4 +1,4 @@
-!pip3 install yfinance
+pip install yfinance
 import streamlit as st
 import numpy as np
 import pandas as pd
