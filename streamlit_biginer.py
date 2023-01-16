@@ -6,4 +6,4 @@ df = pd.DataFrame(
   np.random.rand(100, 2)/[50, 50] + [35.69, 139.70],
   columuns=['lat', 'lon']
 )
-df
+st.map(df)
