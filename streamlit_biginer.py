@@ -1,8 +1,9 @@
-pip3 install yfinance
+import streamlit as st
+import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import yfinance as yf
 
-aapl = yf.Ticker('AAPL')
-
-aapl.history()
+df = pd.DataFrame(
+  np.random.rand(100, 2)/50 + [35.69, 139.70],
+  columuns=['lat', 'lon']
+)
+df
