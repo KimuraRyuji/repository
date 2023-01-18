@@ -1,4 +1,4 @@
-pip Streamlit
+pip streamlit
 
 import streamlit as st
 import numpy as np
