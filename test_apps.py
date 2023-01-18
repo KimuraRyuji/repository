@@ -1,4 +1,4 @@
-pip Install Streamlit
+pip Streamlit
 
 import streamlit as st
 import numpy as np
