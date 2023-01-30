@@ -35,4 +35,5 @@ tickers = {
     'Amazon': 'AMZN'
 }
 
-get_data(days, tickers)
+stock_data = get_data(days, tickers)
+st.linechart(stock_data)
