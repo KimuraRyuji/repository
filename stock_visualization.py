@@ -36,5 +36,5 @@ tickers = {
     'Amazon': 'AMZN'
 }
 
-stock_data = get_data(days, tickers)
-st.linechart(stock_data)
+stock_data = pd.DataFrame(get_data(days, tickers))
+st.line_chart(stock_data)
