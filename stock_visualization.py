@@ -1,10 +1,13 @@
+!pip install yfinance
+!pip install altair
 import pandas as pd
+import matplotlib.pyplot as plt
 import yfinance as yf
-import streamlit as st
+import altair as alt
 
 days = 20
 tickers = {
-    'apple': 'AAPL',
+    'Apple': 'AAPL',
     'Meta': 'META',
     'MicroSoft': 'msft',
     'google': 'GOOGL',
@@ -27,7 +30,7 @@ def get_data(days, tickers):
   
 days = 20
 tickers = {
-    'apple': 'AAPL',
+    'Apple': 'AAPL',
     'Meta': 'META',
     'MicroSoft': 'msft',
     'google': 'GOOGL',
@@ -36,4 +39,6 @@ tickers = {
 }
 
 stock_data = pd.DataFrame(get_data(days, tickers))
+stock_data = stock_data.T.reset_index()
+stock_data = pd.melt(stock_data, id_vars=['Date']
 st.line_chart(stock_data)
