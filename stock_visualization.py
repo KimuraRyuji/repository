@@ -1,4 +1,4 @@
-pip install yfinance
+pip yfinance
 pip install altair
 import pandas as pd
 import matplotlib.pyplot as plt
