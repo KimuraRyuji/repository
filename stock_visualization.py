@@ -1,5 +1,3 @@
-install yfinance
-pip install altair
 import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
