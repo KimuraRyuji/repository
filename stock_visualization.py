@@ -27,7 +27,7 @@ def get_data(days, tickers):
         df = pd.concat([df, hist])
     return df
   
-days = 20
+days = 30
 tickers = {
     'Apple': 'AAPL',
     'Meta': 'META',
