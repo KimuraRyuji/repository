@@ -40,4 +40,4 @@ tickers = {
 stock_data = pd.DataFrame(get_data(days, tickers))
 stock_data = stock_data.T.reset_index()
 stock_data = pd.melt(stock_data, id_vars=['Date']
-st.DataFrame(stock_data)
+stock_data.head()
