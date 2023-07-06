@@ -1,6 +1,7 @@
 import streamlit as st
-import time
-from PIL import Image
+import pandas as pd
+import numpy as np
 
-with st.form("test_form", clear_on_submit=False):
-  name = st.text_input('訪問先を入力してください')
+data = pd.read_excel('')
+
+st.bar_chart(data)
