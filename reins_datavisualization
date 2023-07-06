@@ -1,0 +1,7 @@
+import streamlit as st
+import pandas as pd
+import numpy as np
+
+data = pd.read_excel('https://github.com/KimuraRyuji/repository/blob/main/reins_used_202003.xlsx')
+
+st.bar_chart(data)
