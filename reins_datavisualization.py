@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 repo_url = 'https://github.com/KimuraRyuji/repository'
-csv_path = '/blob/main/reins_used_202003.csv'
+csv_path = 'blob/main/reins_used_202003.csv'
 
 def load_data():
   df = pd.read_csv(csv_path)
